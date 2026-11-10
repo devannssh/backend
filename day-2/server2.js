@@ -15,6 +15,6 @@ app.post('/notes',(req, res)=>{
 app.get('/notes',(req,res)=>{
     res.send(notes)
 })
-app.listen(3000,()=>{
-    console.log("server is listening at 3000 ....")
+app.listen(3002,()=>{
+    console.log("server is listening at 3002 ....")
 })
