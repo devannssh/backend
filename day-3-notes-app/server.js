@@ -1,6 +1,5 @@
-// server start karna
-const app = require("./src/app")      // imported
+const app = require("./src/app")
 
 app.listen(3000,()=>{
-    console.log("server is listening on 3000")
+    console.log("server is listening at port 3000")
 })
